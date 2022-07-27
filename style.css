@@ -1,0 +1,184 @@
+html{
+    overflow-x: hidden;
+}
+.header-logo img{
+    width: 12.7vw;
+    height: 10.7vh;
+}
+.header-search img{
+    margin-top: 21.4%;
+    width: 1.25vw;
+    height: 2.58vh;
+}
+.img-banner img{
+   height: 73.8vh;
+   width: 100vw;
+}
+.title h1{
+    font-family: 'trebuchet';
+    margin-top: 5.266%;
+    text-align: center;
+    color:#389CD6;
+    font-size: 39px;
+    margin-bottom: 2.11%;
+}
+.text h3{
+    font-family: 'trebuchet-regular';
+    color: #7B7070;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 36.599%;
+    padding-right: 36.599%;
+    margin-bottom: 2.633%;
+}
+.text-padding-reset h3{
+    font-family: 'trebuchet-regular';
+    color: #7B7070;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 29.599%;
+    padding-right: 29.599%;
+    margin-bottom: 2.633%;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    width: 73.764vw;
+    height: 34.738vh;
+}
+.item h3{
+    font-family: 'trebuchet-regular';
+    color: #7B7070;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 9.22%;
+    margin-top: 7%;
+}
+.background-products{
+    background-color:#389CD6;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34.56%;
+    border-radius: 0% 0% 23px 23px;
+}
+.background-products-2{
+    background-color:green;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34.56%;
+    border-radius: 0% 0% 23px 23px; 
+}
+.background-products-3{
+    background-color:#EE6381;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34.56%;
+    border-radius: 0% 0% 23px 23px;  
+}
+.background-products h3{
+    font-family: 'trebuchet';
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5.62%;
+}
+.background-products-2 h3{
+    font-family: 'trebuchet';
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5.62%;  
+}
+.background-products-3 h3{
+    font-family: 'trebuchet';
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5.62%;  
+}
+#carousel{
+    margin-left: 27%;
+    margin-top: 6.443%;
+}
+.banner-end{
+    margin-top: 6.32%;
+}
+.banner-end img{
+    width: 100vw;
+    height: 46.89vh;
+}
+.button-discoveries{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-discoveries button{
+    border: none;
+    background-color: #389CD6;
+    width: 19.1vw;
+    height: 7.1vh;
+    font-family: 'trebuchet';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 16px 16px 16px 16px;
+    margin: 4.5% 0% 6.32% 0%;
+}
+footer{
+    background-color: #389CD6;
+    width: 100vw;
+    height: 26vh;
+}
+.footer-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 2.14%;
+}
+.footer-logo img{
+    margin-left: 2%;
+    width: 8.34vw;
+    height: 4.29vh;
+}
+.footer-logo, .footer-insta{
+    margin-top: 12.1%;
+}
+.footer-insta{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-insta img{
+    margin-right: 10%;
+}
+.separacao{
+    height: 35px;
+    width: 2px;
+    background-color: white;
+    margin: 0% 3% 0% 3%;
+}
+.txt-li{
+    font-family: 'trebuchet';
+    font-size: 16px;
+    color: #fff;
+}
+@font-face {
+    font-family:'trebuchet';
+    src: url('./font/trebuchet-ms-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family:'trebuchet-regular';
+    src: url('./font/trebuchet-ms.ttf') format('truetype');
+}

@@ -1,0 +1,76 @@
+@media (max-width:500px) {
+    .header-logo{
+        margin-left: 50%;
+    }
+    .header-logo img{
+        height: auto;
+        width: 50vw;
+    }
+    .header-search img{
+        width: 7vw;
+        height: auto;
+        margin-top: 15.4%;
+        margin-left: 60%;
+    }
+    .img-banner img, .icons img{
+        height: auto;
+        width: 100%;
+    }
+    #header-desk,#banner-desk, #search-desk, #icon-desk,#banner-desk-end,#img-insta-,#img-insta-desk{
+        display: none;
+    }
+    .title h1{
+        font-size: 31px;
+        margin-top: 10%;
+        margin-bottom: 8.53%;
+        word-break: keep-all;
+    }
+    .text h3, .text-padding-reset h3{
+        font-size: 16px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10.8%;
+    }
+    .item h3{
+        margin: 11% 0% 15% 0%;
+    }
+    .button-discoveries button{
+        width: 90vw;
+        height: 10vh;
+    }
+    .footer-ul{
+        flex-direction: column;
+        margin-top: 12.59%;
+        padding: 0%;
+    }
+    footer{
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer-logo,.footer-insta{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .footer-logo img{
+        width: 11.5vw;
+        height: 6.5vh;
+    }
+    .separacao{
+    height: 2px;
+    width: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    .footer-insta img{
+        margin: 20% 0% 0% 3%;
+        width: 31vw;
+        height: 4.4vh;
+    }
+    
+}
+@media (min-width:1000px) and (max-width:2900px) {
+    #header-mobile,#banner-mobile, #search-mobile, #icon-mobile, #banner-mobile-end, #img-insta-mobile,#img-logo-mobile{
+         display: none;
+    }
+}
